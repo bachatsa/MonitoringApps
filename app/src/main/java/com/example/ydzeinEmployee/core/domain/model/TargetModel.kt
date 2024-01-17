@@ -1,6 +1,7 @@
-package com.example.ydzeinEmployee.core.domain.model
+package com.ydzmobile.employee.core.domain.model
 
 import android.os.Parcelable
+import com.google.common.reflect.TypeToken
 import com.google.gson.Gson
 import kotlinx.parcelize.Parcelize
 

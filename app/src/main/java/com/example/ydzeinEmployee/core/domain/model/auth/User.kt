@@ -1,4 +1,4 @@
-package com.example.ydzeinEmployee.core.domain.model.auth
+package com.ydzmobile.employee.core.domain.model.auth
 
 import com.google.errorprone.annotations.Keep
 
@@ -19,6 +19,7 @@ data class User(
     var role: String? = null,
     @field:JvmField
     var isSupervisor: Boolean = false
-){
+) {
+    // No-argument constructor
     constructor() : this("", null, null, null, "", null, null, null, null, null, null, null, null, false)
 }

@@ -1,13 +1,13 @@
-package com.example.ydzeinEmployee.core.data.database
+package com.ydzmobile.employee.core.data.database
 
 import android.net.Uri
-import com.example.ydzeinEmployee.core.data.ResourceState
-import com.example.ydzeinEmployee.core.domain.model.Attendance
-import com.example.ydzeinEmployee.core.domain.model.AttendanceHistoryModel
-import com.example.ydzeinEmployee.core.domain.model.Division
-import com.example.ydzeinEmployee.core.domain.model.auth.TargetModel
-import com.example.ydzeinEmployee.core.domain.model.auth.TargetModelRequest
-import com.google.firebase.firestore.auth.User
+import com.ydzmobile.employee.core.data.ResourceState
+import com.ydzmobile.employee.core.domain.model.AttendanceHistoryModel
+import com.ydzmobile.employee.core.domain.model.attendance.Attendance
+import com.ydzmobile.employee.core.domain.model.auth.User
+import com.ydzmobile.employee.core.domain.model.division.Division
+import com.ydzmobile.employee.core.domain.model.monitor.TargetModel
+import com.ydzmobile.employee.core.domain.model.monitor.TargetModelRequest
 import kotlinx.coroutines.flow.Flow
 
 interface DatabaseRepository {

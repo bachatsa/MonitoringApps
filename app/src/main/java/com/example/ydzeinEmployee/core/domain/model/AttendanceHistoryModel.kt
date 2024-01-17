@@ -1,13 +1,14 @@
-package com.example.ydzeinEmployee.core.domain.model
+package com.ydzmobile.employee.core.domain.model
 
 import androidx.compose.ui.graphics.Color
-import com.example.ydzeinEmployee.core.domain.enum.AttendanceType
-import com.example.ydzeinEmployee.core.extension.toDate
-import com.example.ydzeinEmployee.core.extension.toFormattedString
-import com.example.ydzeinEmployee.core.ui.theme.appleGreen
-import com.example.ydzeinEmployee.core.ui.theme.lightCarminePink
-import com.ydzmobile.employee.R
+import com.example.ydzeinemployeemonitoring.R
+import com.ydzmobile.employee.core.domain.enum.AttendanceType
+import com.ydzmobile.employee.core.extension.toDate
+import com.ydzmobile.employee.core.extension.toFormattedString
+import com.ydzmobile.employee.ui.theme.appleGreen
+import com.ydzmobile.employee.ui.theme.lightCarminePink
 import java.time.LocalDateTime
+
 
 data class AttendanceHistoryModel(
     val id: String,

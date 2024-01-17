@@ -1,4 +1,4 @@
-package com.example.ydzeinEmployee.core.extension
+package com.ydzmobile.employee.core.extension
 
 import java.text.SimpleDateFormat
 import java.util.Date

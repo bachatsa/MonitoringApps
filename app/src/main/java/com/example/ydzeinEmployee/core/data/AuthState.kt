@@ -1,4 +1,4 @@
-package com.example.ydzeinEmployee.core.data
+package com.ydzmobile.employee.core.data
 
 enum class AuthState {
     NOT_LOGIN, LOGIN, FAILED

@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
     <application
+        android:name="com.ydzmobile.employee.MyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,9 +13,23 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.YdzeinEmployeeMonitoring"
-        tools:targetApi="31" >
+        android:theme="@style/Theme.YdzMobileEmployeeKotlin"
+        tools:targetApi="31">
+        <activity
+            android:name="com.ydzmobile.employee.ui.main.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.YdzMobileEmployeeKotlin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAbHLdDfmcUknYzPhDgZr_7ghDr4xjfkG8"/>
     </application>
 
 </manifest>
