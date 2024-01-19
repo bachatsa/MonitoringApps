@@ -155,7 +155,7 @@ sealed interface PermissionEvent {
 
 data class AttendanceUIState(
     var currentLocation: LatLng? = null,
-    var epic: LatLng = LatLng(-6.2068924, 107.0079269),
+    var epic: LatLng = LatLng(-6.8008833, 110.8458653),
     val toastMessages: String = "",
     val isSuccess: Boolean = false,
     val isAbleToDoAttendance: Boolean = false

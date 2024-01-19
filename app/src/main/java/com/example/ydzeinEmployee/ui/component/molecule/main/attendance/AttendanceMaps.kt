@@ -27,7 +27,7 @@ import com.ydzmobile.employee.ui.theme.paleSpringBud
 
 @Composable
 fun AttendanceMaps(currentUserLocation: LatLng) {
-    val epic = LatLng(-6.2068924, 107.0079269)
+    val epic = LatLng(-6.8008833, 110.8458653)
     val cameraPositionState = rememberCameraPositionState {
          position = CameraPosition.fromLatLngZoom(currentUserLocation, 20f)
     }
